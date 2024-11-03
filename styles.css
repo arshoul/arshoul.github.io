@@ -1,0 +1,98 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for profile info */
+.container {
+    text-align: center;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    margin-bottom: 20px; /* Space between content and footer */
+}
+
+/* Profile picture styling */
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Name styling */
+.name {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #e6e6e6;
+}
+
+/* Description styling */
+.description {
+    font-size: 1rem;
+    color: #b3b3b3;
+}
+
+/* Upload section styling */
+.upload-section {
+    margin: 20px 0;
+}
+
+/* Files section styling */
+.files-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.files-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.files-section li {
+    background: #333;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+    .container {
+        padding: 15px;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+}
